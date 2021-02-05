@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form method="POST" action="/users/create">
+      <label for="name">User name</label>
+      <input name="name" type="text" placeholder="이름 쓰세요">
+
+      <label for="email">User email</label>
+      <input name="email" type="email" placeholder="이메일 쓰세요">
+
+      <button type="submit">제출하기</button>
+    </form>
+  </body>
+</html>
